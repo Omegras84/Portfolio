@@ -1,0 +1,60 @@
+:root {
+  --bg: #FFDAB9;
+  --text: #eee;
+  --bull: #1db954; /* Vert Spotify */
+  --bear: #e74c3c;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: grey;
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header>h1 {
+  padding: 2rem;
+  font-size: 2.5em;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+#plot, #explicit-by-year, #popularity {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+
+header>p, #h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 10vh;
+}
+
+
+#h2 {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.controls label {
+  padding-top: 1.3vh
+}
+
+
+#description_valence, #description_expl, #description_pop {
+  margin: 10vh 8vw 10vh 8vw;
+  font-size: 1.5em;
+}
