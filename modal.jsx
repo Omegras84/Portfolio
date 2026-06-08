@@ -136,36 +136,4 @@ function StarBlock({ letter, label, content }) {
     </div>
   );
 }
-
-function BrowserPreview({ preview }) {
-  return (
-    <div className="modal-preview" aria-label="Aperçu du projet">
-      <div className="preview-titlebar">
-        <div className="preview-dots">
-          <span className="preview-dot red" />
-          <span className="preview-dot yellow" />
-          <span className="preview-dot green" />
-        </div>
-        <div className="preview-url">{preview.url || preview.title}</div>
-      </div>
-      <div className="preview-body">
-        <div className="preview-screens">
-          {(preview.screens || []).map((screen, i) => (
-            <div className="preview-screen" key={i}>
-              {screen.image ? (
-                <img src={screen.image} alt={screen.caption || `Capture ${i + 1}`} style={{ width: "100%", display: "block" }} />
-              ) : (
-                <div className="preview-placeholder">
-                  <span className="preview-placeholder-text">Capture {i + 1} — à intégrer</span>
-                </div>
-              )}
-              {screen.caption && (
-                <div className="preview-caption">{screen.caption}</div>
-              )}
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
 }
