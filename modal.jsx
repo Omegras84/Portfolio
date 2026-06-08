@@ -55,8 +55,6 @@ function ProjectModal({ project, onClose }) {
           </dl>
         </header>
 
-        {project.preview && <BrowserPreview preview={project.preview} />}
-
         <div className="modal-body">
           <div className="modal-narrative">
             {[star.situation, star.tache].filter(Boolean).map((t, i) => (
