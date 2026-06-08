@@ -136,4 +136,3 @@ function StarBlock({ letter, label, content }) {
     </div>
   );
 }
-}
