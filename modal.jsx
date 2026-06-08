@@ -100,6 +100,11 @@ function ProjectModal({ project, onClose }) {
                   Voir le projet en ligne <Arrow size={15} />
                 </a>
               )}
+              {project.links.oldSite && (
+                <a href={project.links.oldSite} target="_blank" rel="noopener noreferrer" className="btn-ghost">
+                  Ancien site
+                </a>
+              )}
               {project.links.github && (
                 <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="btn-ghost">
                   Code source GitHub

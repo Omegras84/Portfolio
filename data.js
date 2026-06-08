@@ -106,7 +106,8 @@ window.PORTFOLIO = {
       role: "Développeur web · intégrateur",
       stack: ["Symfony", "Symfony 1", "SCSS", "Bootstrap", "HTML", "CSS"],
       links: {
-        demo: "https://www.ndfrance.org/"
+        demo: "https://vins-luberon.absys-info.site/",
+        oldSite: "https://www.vins-luberon.fr/fr/"
       },
       featured: true,
       heroColor: "blue",
@@ -115,14 +116,14 @@ window.PORTFOLIO = {
 
       star: {
         situation:
-          "Au-delà du développement, une grande partie de mon stage a consisté à intervenir sur des sites clients déjà en ligne. Trois cas représentatifs : la refonte graphique de NDFrance, un site ancien tournant sous Symfony 1 ; la réorganisation puis la refonte de l'intranet de la commune d'Apt ; et l'initialisation optimisée du site Caparol Center, pensé pour le référencement local. Dans chaque cas, le site existait déjà dans un écosystème de communication précis, qu'il fallait comprendre avant d'agir.",
+          "Au-delà du développement, une grande partie de mon stage a consisté à intervenir sur des sites clients déjà en ligne. Trois cas représentatifs : la refonte graphique de NDfrance, un site ancien tournant sous Symfony 1 ; la réorganisation puis la refonte de l'intranet de la commune d'Apt ; et l'initialisation optimisée du site Caparol Center, pensé pour le référencement local. Dans chaque cas, le site existait déjà dans un écosystème de communication précis, qu'il fallait comprendre avant d'agir.",
         tache:
           "Pour chaque site, analyser la stratégie de communication du client et auditer l'existant avant toute intervention, puis appliquer une nouvelle identité visuelle ou réorganiser les contenus, tout en veillant à la lisibilité, au caractère responsive et au référencement.",
         action: [
           "Analyse de la stratégie de communication de chaque client pour comprendre la cible et le message avant d'intervenir sur le site.",
           "Audit de l'existant : structure des pages, organisation du code, points faibles en lisibilité et en référencement.",
           "Sur l'intranet d'Apt, cartographie de l'expérience utilisateur des agents pour repenser l'organisation des documents téléchargeables, devenue difficile à maintenir.",
-          "Application fidèle des chartes graphiques fournies (NDFrance, intranet aligné sur le site principal de la commune), avec centralisation des variables CSS.",
+          "Application fidèle des chartes graphiques fournies (vins-luberon, intranet aligné sur le site principal de la commune), avec centralisation des variables CSS.",
           "Optimisation du référencement local sur Caparol Center et attention au temps de chargement des pages produites.",
           "Vérification page par page du rendu responsive et des effets de bord après chaque modification."
         ],
@@ -263,7 +264,7 @@ window.PORTFOLIO = {
           "Projet où je touche à tout : conception, design, front, back, base de données, déploiement, infrastructure. Compétences Concevoir, Développer et Entreprendre toutes mobilisées. Reste à approfondir : tests automatisés, et travail sur la performance à plus grande échelle."
       },
 
-      ac: ["AC22.01", "AC24.01", "AC24.04", "AC24.06", "AC25.01"]
+      ac: ["AC22.01", "AC22.02", "AC24.01", "AC24.04", "AC24.06", "AC25.01"]
     },
 
     /* -----  PROJET 5 : SAE 303 DATAVIZ MUSIQUE  ----- */
@@ -281,11 +282,14 @@ window.PORTFOLIO = {
       preview: {
         type: "browser",
         title: "GOUJAN_Tristan_DATAVIZ.html",
-        url: "fichier://dataviz-musique/index.html",
+        url: "dataviz-musique/index.html",
         screens: [
           { caption: "Vue d'ensemble du site dataviz" },
           { caption: "Détail d'un graphique Plotly interactif" }
         ]
+      },
+      links: {
+        demo: "./dataviz-musique/index.html"
       },
       blurb:
         "Site one-page exploitant une base de données musicale, avec graphiques interactifs Plotly pour faire émerger les tendances cachées dans une masse d'informations.",
@@ -319,7 +323,7 @@ window.PORTFOLIO = {
     {
       id: "perudo-bot",
       name: "Perudo Bot",
-      year: "2025",
+      year: "2026",
       type: "Projet de groupe · Bot stratégique en PHP",
       context: "Projet de cours (5 personnes)",
       duration: "Plusieurs semaines",
@@ -328,7 +332,7 @@ window.PORTFOLIO = {
       featured: true,
       heroColor: "red",
       blurb:
-        "Bot de Perudo (Liar's Dice) à stratégie risk/reward différenciée. Vainqueur du tournoi inter-équipes avec le plus grand nombre de points sur 4 parties.",
+        "Bot de Perudo à stratégie risk/reward différenciée. Vainqueur du tournoi inter-équipes avec le plus grand nombre de points sur 4 parties.",
 
       star: {
         situation:
@@ -394,7 +398,7 @@ window.PORTFOLIO = {
           "Compétences Concevoir, Exprimer et Développer toutes mobilisées simultanément. Pleinement à l'aise sur la chaîne complète conception → développement → déploiement, en solo, sur un projet personnel à forte exigence d'identité visuelle."
       },
 
-      ac: ["AC22.01", "AC23.03", "AC24.01", "AC24.06"]
+      ac: ["AC22.01", "AC23.03", "AC24.01", "AC24.06", "AC25.03"]
     }
   ],
 
@@ -463,6 +467,7 @@ window.PORTFOLIO = {
 
     /* === Concevoir === */
     { code: "AC22.01", label: "Co-concevoir un produit ou un service (proposition de valeur, fonctionnalités…)", competence: "concevoir", projects: ["cineclub", "fittracker", "portfolio"] },
+    { code: "AC22.02", label: "Tester et améliorer l'ergonomie d'un produit à partir d'usage réel et de retours utilisateurs", competence: "concevoir", projects: ["fittracker"] },
     { code: "AC22.04", label: "Optimiser le référencement d'un site web, d'un produit ou d'un service", competence: "concevoir", projects: ["refonte-stage"] },
 
     /* === Exprimer === */
@@ -482,6 +487,7 @@ window.PORTFOLIO = {
 
     /* === Entreprendre === */
     { code: "AC25.01", label: "Gérer un projet avec une méthode d'amélioration continue", competence: "entreprendre", projects: ["cineclub", "fittracker"] },
+    { code: "AC25.03", label: "Construire un outil de mise en réseau professionnel pour être visible des recruteurs et candidats à l'alternance", competence: "entreprendre", projects: ["portfolio"] },
     { code: "AC25.04", label: "Collaborer au sein des organisations", competence: "entreprendre", projects: ["cineclub", "bundle-cms"] },
     { code: "AC25.05", label: "Maîtriser les codes des productions écrites et orales professionnelles", competence: "entreprendre", projects: ["bundle-cms", "cineclub"] },
     { code: "AC25.06", label: "Prendre en compte les contraintes juridiques", competence: "entreprendre", projects: ["cineclub"] }
@@ -515,7 +521,7 @@ window.PORTFOLIO = {
     {
       period: "Sept. 2025 → Janv. 2026",
       title: "Deuxième année — semestre 3",
-      description: "SAE dataviz, SAE Perudo bot (1ère place au tournoi inter-équipes), SAE création UI. Montée en compétence sur le travail de groupe."
+      description: "SAE dataviz,  SAE création UI. Montée en compétence sur le travail de groupe."
     },
     {
       period: "Févr. → Mars 2026",
@@ -530,7 +536,7 @@ window.PORTFOLIO = {
     {
       period: "Avr. → Juin 2026",
       title: "Fin de deuxième année",
-      description: "SAE ciné-club et VR système solaire en parallèle. Construction du portfolio. Recherche d'alternance pour la 3ème année."
+      description: "SAE ciné-club, SAE Perudo bot (1ère place au tournoi inter-équipes) et VR système solaire en parallèle. Construction du portfolio. Recherche d'alternance pour la 3ème année."
     }
   ],
 
