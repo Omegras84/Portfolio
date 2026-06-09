@@ -75,7 +75,7 @@ function SpiderwebCorner({ corner = "tr", size = 220 }) {
   const positions = {
     tr: { top: 0, right: 0, transform: "rotate(0deg)" },
     tl: { top: 0, left: 0, transform: "rotate(90deg)" },
-    br: { bottom: 0, right: 0, transform: "rotate(-90deg)" },
+    br: { bottom: 0, right: 0, transform: "rotate(-1800deg)" },
     bl: { bottom: 0, left: 0, transform: "rotate(180deg)" }
   };
   return (
